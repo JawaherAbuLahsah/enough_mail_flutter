@@ -1,19 +1,19 @@
 name: enough_mail_flutter
 description: Widgets for email apps that use the `enough_mail` library. Licensed commercially friendly under MPL 2.0.
-version: 2.1.1
+version: 2.1.2
 homepage: https://github.com/enough-software/enough_mail_flutter
 topics:
  - mime
  - email
 
 environment:
-  sdk: '>=2.18.0 <4.0.0'
-  flutter: ">=3.0.0"
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.27.0"
 
 dependencies:
-  enough_mail: ^2.1.2
-  enough_mail_html: ^2.0.1
-  enough_media: ^2.3.1
+  enough_mail: ^2.1.7
+  enough_mail_html: ^2.0.2
+  enough_media: ^3.0.0
   flutter:
     sdk: flutter
   flutter_inappwebview: ^6.0.0
@@ -39,7 +39,7 @@ dependency_overrides:
 
 
 dev_dependencies:
-  flutter_lints: ^4.0.0
+  flutter_lints: ^6.0.0
   flutter_test:
     sdk: flutter
 

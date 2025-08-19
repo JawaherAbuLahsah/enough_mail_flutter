@@ -14,9 +14,9 @@ import 'package:flutter/widgets.dart';
 Widget buildViewerForMessage(MimeMessage mimeMessage, MailClient mailClient) =>
     MimeMessageDownloader(
       mimeMessage: mimeMessage,
-      mailClient: mailClient,
       onDownloaded: onMessageDownloaded,
       mailtoDelegate: handleMailto,
+      fetchMessageContents: mailClient.fetchMessageContents,
     );
 
 // Example implementation of an optional onDownloaded delegate

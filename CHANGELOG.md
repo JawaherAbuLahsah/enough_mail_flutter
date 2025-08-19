@@ -1,3 +1,6 @@
+## [2.1.2] - (2025-08-19)
+- chore: update dependencies
+
 ## [2.1.1] - (2024-05-22)
 - Remove direct MailClient usage from MimeMessageDownloader
 - Update dependencies
